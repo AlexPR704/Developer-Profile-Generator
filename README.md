@@ -18,9 +18,11 @@ MIT License
 # Credits
 Special credit goes to the team of instructors. Without their help; this generator would not have been possible. 
 
+![screenshot of the app](images/video.gif)
+
 ![screenshot of the app](images/questions.png)
 
-![screenshot of the app](images/maxgithub.png)
+
 
 ## Submission on BCS
 
