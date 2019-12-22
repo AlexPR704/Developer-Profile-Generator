@@ -15,8 +15,9 @@ body {
 div {
   color: grey;
   border: 2px solid;
+  padding-left: 15px;
 }
-p {
+ul {
     padding-left: 10px;
     font-family: verdana;
     color: white;
@@ -28,6 +29,9 @@ img  {
   padding-top: 10px;
   padding-left: 10px;
 }
+h1 {
+    padding-left: 15px;
+}
 </style>
 </head>
 <body>
@@ -35,13 +39,13 @@ img  {
 <div>    
 <img src = "${data.avatar_url}">
     
-                <p>Username: ${data.login}</p>
-                <p>Followers: ${data.followers}</p>
-                <p>Following: ${data.following}</p>
-                <p>Repo URL: ${data.repos_url}</p>
-                <p>Bio: ${data.bio}</p>
-                <p>Location: ${data.location}</p>
-                <p>Avatar URL: ${data.avatar_url}</p>
+                <ul>Username: ${data.login}</ul>
+                <ul>Followers: ${data.followers}</ul>
+                <ul>Following: ${data.following}</ul>
+                <ul>Repo URL: ${data.repos_url}</ul>
+                <ul>Bio: ${data.bio}</ul>
+                <ul>Location: ${data.location}</ul>
+                <ul>Public Repos: ${data.public_repos}</ul>
     </div>
     
 </body>

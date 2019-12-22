@@ -17,10 +17,11 @@ inquirer
             message: "What is your favorite color",
             name: "colors",
             choices: [
-                "black",
+                "red",
                 "purple",
                 "blue",
-                "yellow"
+                "yellow",
+                "orange"
 
             ]
         }
@@ -38,7 +39,7 @@ inquirer
                 console.log(response.data.repos_url)
                 console.log(response.data.bio)
                 console.log(response.data.location)
-                console.log(response.data.avatar_url)
+                console.log(response.data.public_repos)
                 const completedHtml = generateHtml(response.data, data.colors)
 
 
