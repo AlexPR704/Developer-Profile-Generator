@@ -1,24 +1,19 @@
 {
-  "name": "developer-profile-generator",
+  "name": "new",
   "version": "1.0.0",
-  "description": "Creates a profile",
+  "description": "generates profile",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexPR704/Developer-Profile-Generator.git"
+    "url": "AlexPR704"
   },
   "author": "Alexander Garcia",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AlexPR704/Developer-Profile-Generator/issues"
-  },
-  "homepage": "https://github.com/AlexPR704/Developer-Profile-Generator#readme",
   "dependencies": {
     "axios": "^0.19.0",
-    "inquirer": "^7.0.1",
-    "markdown": "^0.5.0"
+    "inquirer": "^7.0.1"
   }
 }
