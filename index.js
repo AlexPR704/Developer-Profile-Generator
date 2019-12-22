@@ -14,7 +14,7 @@ inquirer
         {
 
             type: "list",
-            message: "What is your favorite color",
+            message: "What is your favorite color?",
             name: "colors",
             choices: [
                 "red",
